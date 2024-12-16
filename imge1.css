@@ -1,0 +1,26 @@
+section {
+margin: 60px;
+
+}
+
+div {
+    border: 2px solid ;
+    background-color:yellow ;
+     display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+section :nth-child(even)
+{
+background-color: green;
+}
+/* section :nth-child(odd) {
+    margin: 15px;
+} */
+
+section :nth-child(even) {
+    position: relative;
+    top: 25px;
+}
+
